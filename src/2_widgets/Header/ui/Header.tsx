@@ -1,4 +1,4 @@
-import {Container, Logo, Title} from "/src/5_shared/ui";
+import {Container, Logo} from "/src/5_shared/ui";
 import cls from "./Header.module.scss"
 
 export const Header = () => {
@@ -7,7 +7,6 @@ export const Header = () => {
             <Container>
                 <div className={cls.headerWrapper}>
                     <Logo/>
-                    <Title text={'Base template'}/>
                 </div>
             </Container>
         </header>
