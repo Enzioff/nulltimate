@@ -1,5 +1,5 @@
-import {Product} from "./Product/ui/Product.tsx";
+import {ProductCard} from "./ProductCard/ui/ProductCard.tsx"
 
 export {
-    Product
+    ProductCard
 }

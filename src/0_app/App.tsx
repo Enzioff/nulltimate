@@ -1,10 +1,13 @@
-import {IndexPage} from "/src/1_pages/Index";
+import {AppRouter} from "/src/0_app/provider";
+import {BottomMenu, Header} from "/src/2_widgets";
 
 function App() {
     return (
-        <>
-            <IndexPage />
-        </>
+        <div className="App">
+            <Header />
+            <AppRouter />
+            <BottomMenu />
+        </div>
     )
 }
 
