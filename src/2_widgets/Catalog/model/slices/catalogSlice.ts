@@ -11,7 +11,7 @@ const catalogSlice = createSlice({
     reducers: {
         initialCatalog: () => initialState,
         initCatalog: (state, action) => {
-            state.catalog = [...state.catalog, ...action.payload];
+            state.catalog = [...action.payload];
         }
     },
 })

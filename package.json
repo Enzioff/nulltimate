@@ -11,7 +11,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "jsonServer": "npx json-server api.demo.json"
   },
   "dependencies": {
     "@telegram-apps/sdk": "^3.3.0",
@@ -27,6 +28,7 @@
     "@types/react-dom": "^19.0.3",
     "@types/react-redux": "^7.1.34",
     "@vitejs/plugin-react": "^4.3.4",
+    "axios": "^1.7.9",
     "classnames": "^2.5.1",
     "eslint": "^9.19.0",
     "eslint-plugin-react-hooks": "^5.0.0",
